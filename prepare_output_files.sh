@@ -1,3 +1,15 @@
+#### Compute ensemble mean of the three Flat Earth experiment simulations
+
+dir1='/work/mh1049/k206174/icon-easyms/experiments/sus22F1/outdata';
+dir2='/work/mh1049/k206175/icon-easyms/experiments/sus22F2/outdata';
+dir3='/work/mh1049/k206182/icon-easyms/experiments/sus22F3/outdata';
+
+for file_name in ./sus22F*.nc;
+        do file_name_end=${file_name:9};  
+        file_ensmean=/work/mh1049/k206174/icon-easyms/ensemble_mean/sus22F0_ensmean$file_name_end;
+        cdo ensmean -O $dir1/sus22F1$file_name_end $dir2/sus22F2$file_name_end $dir3/sus22F3$file_name_end $file_ensmean;
+done;
+
 
 ##### Compute average over last 50 yrs
 ## Control run
