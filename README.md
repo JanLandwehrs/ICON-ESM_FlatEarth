@@ -1,4 +1,4 @@
-# ICON-ESM Climate Simulateion for a "Flat Earth" scenario (removed orography)
+# ICON-ESM Climate Simulations for a "Flat Earth" scenario (removed orography)
 
 How does Earths land surface relief affect climate? Or the other way round: What would be if there were no mountain ranges and depressions and the surface was completely flat?
 
