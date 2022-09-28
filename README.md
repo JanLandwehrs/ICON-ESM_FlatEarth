@@ -6,4 +6,4 @@ This question was addressed with climate model simulations and analyses at the E
 
 This Notebook was prepared by Jan Landwehrs, but resulted from the group work with Anna Luisa Hemshorn de Sánchez, Hairu Ding, Maria Jesus Rapanague Sepulveda, Quan Liu and Roberta D'Agostino (alphabetical order).
 
-#![image](https://github.com/JanLandwehrs/ICON-ESM_FlatEarth/blob/main/FlatEarth_topography.jpg)
+![image](https://github.com/JanLandwehrs/ICON-ESM_FlatEarth/blob/main/FlatEarth_topography.jpg)
